@@ -1,0 +1,308 @@
+python 1.py 3.txt
+Configuration file 3.txt was loaded.
+Game Started: Little Battle! (enter QUIT to quit the game)
+
+Please check the battlefield, commander.
+  X00 01 02 03 04X
+ Y+--------------+
+00|~~|  |  |  |  |
+01|  |H1|  |FF|GG|
+02|WW|  |GG|  |~~|
+03|  |~~|  |H2|  |
+04|FF|  |WW|  |  |
+ Y+--------------+
+(enter DIS to display the map)
+
+Recruit Prices:
+  Spearman (S) - 1W, 1F
+  Archer (A) - 1W, 1G
+  Knight (K) - 1F, 1G
+  Scout (T) - 1W, 1F, 1G
+(enter PRIS to display the price list)
+
+-Year 617-
+
++++Player 1's Stage: Recruit Armies+++
+
+[Your Asset: Wood - 2 Food - 2 Gold - 2]
+
+Which type of army to recruit, (enter) ‘S’, ‘A’, ‘K’, or ‘T’? Enter ‘NO’ to end this stage.
+T
+
+You want to recruit a Scout. Enter two integers as format ‘x y’ to place your army.
+2 1
+
+You has recruited a Scout.
+
+[Your Asset: Wood - 1 Food - 1 Gold - 1]
+
+Which type of army to recruit, (enter) ‘S’, ‘A’, ‘K’, or ‘T’? Enter ‘NO’ to end this stage.
+T
+
+You want to recruit a Scout. Enter two integers as format ‘x y’ to place your army.
+1 2
+
+You has recruited a Scout.
+
+[Your Asset: Wood - 0 Food - 0 Gold - 0]
+No resources to recruit any armies.
+
+===Player 1's Stage: Move Armies===
+
+Armies to Move:
+  Scout: (2, 1), (1, 2)
+
+Enter four integers as a format ‘x0 y0 x1 y1’ to represent move unit from (x0, y0) to (x1, 
+y1) or ‘NO’ to end this turn.
+2 1 3 1
+
+You have moved Scout from (2, 1) to (3, 1).
+Good. We collected 2 Food.
+
+Armies to Move:
+  Scout: (1, 2)
+
+Enter four integers as a format ‘x0 y0 x1 y1’ to represent move unit from (x0, y0) to (x1, 
+y1) or ‘NO’ to end this turn.
+NO
+
+-Year 617-
+
++++Player 2's Stage: Recruit Armies+++
+
+[Your Asset: Wood - 2 Food - 2 Gold - 2]
+
+Which type of army to recruit, (enter) ‘S’, ‘A’, ‘K’, or ‘T’? Enter ‘NO’ to end this stage.
+DIS
+Please check the battlefield, commander.
+  X00 01 02 03 04X
+ Y+--------------+
+00|~~|  |  |  |  |
+01|  |H1|  |T1|GG|
+02|WW|T1|GG|  |~~|
+03|  |~~|  |H2|  |
+04|FF|  |WW|  |  |
+ Y+--------------+
+
+Which type of army to recruit, (enter) ‘S’, ‘A’, ‘K’, or ‘T’? Enter ‘NO’ to end this stage.
+K
+
+You want to recruit a Knight. Enter two integers as format ‘x y’ to place your army.
+3 2
+
+You has recruited a Knight.
+
+[Your Asset: Wood - 2 Food - 1 Gold - 1]
+
+Which type of army to recruit, (enter) ‘S’, ‘A’, ‘K’, or ‘T’? Enter ‘NO’ to end this stage.
+A
+
+You want to recruit a Archer. Enter two integers as format ‘x y’ to place your army.
+2 3
+
+You has recruited a Archer.
+
+[Your Asset: Wood - 1 Food - 1 Gold - 0]
+
+Which type of army to recruit, (enter) ‘S’, ‘A’, ‘K’, or ‘T’? Enter ‘NO’ to end this stage.
+S
+
+You want to recruit a Spearman. Enter two integers as format ‘x y’ to place your army.
+DIS
+Please check the battlefield, commander.
+  X00 01 02 03 04X
+ Y+--------------+
+00|~~|  |  |  |  |
+01|  |H1|  |T1|GG|
+02|WW|T1|GG|K2|~~|
+03|  |~~|A2|H2|  |
+04|FF|  |WW|  |  |
+ Y+--------------+
+
+You want to recruit a Spearman. Enter two integers as format ‘x y’ to place your army.
+PRIS
+Recruit Prices:
+  Spearman (S) - 1W, 1F
+  Archer (A) - 1W, 1G
+  Knight (K) - 1F, 1G
+  Scout (T) - 1W, 1F, 1G
+
+You want to recruit a Spearman. Enter two integers as format ‘x y’ to place your army.
+3 4
+
+You has recruited a Spearman.
+
+[Your Asset: Wood - 0 Food - 0 Gold - 0]
+No resources to recruit any armies.
+
+===Player 2's Stage: Move Armies===
+
+Armies to Move:
+  Spearman: (3, 4)
+  Archer: (2, 3)
+  Knight: (3, 2)
+
+Enter four integers as a format ‘x0 y0 x1 y1’ to represent move unit from (x0, y0) to (x1, 
+y1) or ‘NO’ to end this turn.
+3 2 3 3
+Invalid move. Try again.
+
+Armies to Move:
+  Spearman: (3, 4)
+  Archer: (2, 3)
+  Knight: (3, 2)
+
+Enter four integers as a format ‘x0 y0 x1 y1’ to represent move unit from (x0, y0) to (x1, 
+y1) or ‘NO’ to end this turn.
+2 3 1 3
+
+You have moved Archer from (2, 3) to (1, 3).
+We lost the army Archer due to your command!
+
+Armies to Move:
+  Spearman: (3, 4)
+  Knight: (3, 2)
+
+Enter four integers as a format ‘x0 y0 x1 y1’ to represent move unit from (x0, y0) to (x1, 
+y1) or ‘NO’ to end this turn.
+NO
+
+-Year 618-
+
++++Player 1's Stage: Recruit Armies+++
+
+[Your Asset: Wood - 0 Food - 2 Gold - 0]
+No resources to recruit any armies.
+
+===Player 1's Stage: Move Armies===
+
+Armies to Move:
+  Scout: (3, 1), (1, 2)
+
+Enter four integers as a format ‘x0 y0 x1 y1’ to represent move unit from (x0, y0) to (x1, 
+y1) or ‘NO’ to end this turn.
+3 1 3 3
+
+You have moved Scout from (3, 1) to (3, 3).
+We lost the army Scout due to your command!
+
+Armies to Move:
+  Scout: (1, 2)
+
+Enter four integers as a format ‘x0 y0 x1 y1’ to represent move unit from (x0, y0) to (x1, 
+y1) or ‘NO’ to end this turn.
+DIS
+Please check the battlefield, commander.
+  X00 01 02 03 04X
+ Y+--------------+
+00|~~|  |  |  |  |
+01|  |H1|  |  |GG|
+02|WW|T1|GG|K2|~~|
+03|  |~~|  |H2|  |
+04|FF|  |WW|S2|  |
+ Y+--------------+
+
+Armies to Move:
+  Scout: (1, 2)
+
+Enter four integers as a format ‘x0 y0 x1 y1’ to represent move unit from (x0, y0) to (x1, 
+y1) or ‘NO’ to end this turn.
+1 2 3 2
+
+You have moved Scout from (1, 2) to (3, 2).
+Good. We collected 2 Gold.
+We lost the army Scout due to your command!
+
+No Army to Move: next turn.
+
+-Year 618-
+
++++Player 2's Stage: Recruit Armies+++
+
+[Your Asset: Wood - 0 Food - 0 Gold - 0]
+No resources to recruit any armies.
+
+===Player 2's Stage: Move Armies===
+
+Armies to Move:
+  Spearman: (3, 4)
+  Knight: (3, 2)
+
+Enter four integers as a format ‘x0 y0 x1 y1’ to represent move unit from (x0, y0) to (x1, 
+y1) or ‘NO’ to end this turn.
+3 4 2 4
+
+You have moved Spearman from (3, 4) to (2, 4).
+Good. We collected 2 Wood.
+
+Armies to Move:
+  Knight: (3, 2)
+
+Enter four integers as a format ‘x0 y0 x1 y1’ to represent move unit from (x0, y0) to (x1, 
+y1) or ‘NO’ to end this turn.
+DIS
+Please check the battlefield, commander.
+  X00 01 02 03 04X
+ Y+--------------+
+00|~~|  |  |  |  |
+01|  |H1|  |  |GG|
+02|WW|  |  |K2|~~|
+03|  |~~|  |H2|  |
+04|FF|  |S2|  |  |
+ Y+--------------+
+
+Armies to Move:
+  Knight: (3, 2)
+
+Enter four integers as a format ‘x0 y0 x1 y1’ to represent move unit from (x0, y0) to (x1, 
+y1) or ‘NO’ to end this turn.
+3 2 3 0
+Invalid move. Try again.
+
+Armies to Move:
+  Knight: (3, 2)
+
+Enter four integers as a format ‘x0 y0 x1 y1’ to represent move unit from (x0, y0) to (x1, 
+y1) or ‘NO’ to end this turn.
+3 2 4 2
+
+You have moved Knight from (3, 2) to (4, 2).
+We lost the army Knight due to your command!
+
+No Army to Move: next turn.
+
+-Year 619-
+
++++Player 1's Stage: Recruit Armies+++
+
+[Your Asset: Wood - 0 Food - 2 Gold - 2]
+
+Which type of army to recruit, (enter) ‘S’, ‘A’, ‘K’, or ‘T’? Enter ‘NO’ to end this stage.
+PRS
+Sorry, invalid input. Try again.
+
+Which type of army to recruit, (enter) ‘S’, ‘A’, ‘K’, or ‘T’? Enter ‘NO’ to end this stage.
+PRIS
+Recruit Prices:
+  Spearman (S) - 1W, 1F
+  Archer (A) - 1W, 1G
+  Knight (K) - 1F, 1G
+  Scout (T) - 1W, 1F, 1G
+
+Which type of army to recruit, (enter) ‘S’, ‘A’, ‘K’, or ‘T’? Enter ‘NO’ to end this stage.
+K
+
+You want to recruit a Knight. Enter two integers as format ‘x y’ to place your army.
+DIS
+Please check the battlefield, commander.
+  X00 01 02 03 04X
+ Y+--------------+
+00|~~|  |  |  |  |
+01|  |H1|  |  |GG|
+02|WW|  |  |  |~~|
+03|  |~~|  |H2|  |
+04|FF|  |S2|  |  |
+ Y+--------------+
+
+You want to recruit a Knight. Enter two integers as format ‘x y’ to place your army.
+QUIT
